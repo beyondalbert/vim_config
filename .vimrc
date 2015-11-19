@@ -110,3 +110,6 @@ let g:rubytest_cmd_spec = "rspec -fd %p"
 
 " 设置SuperTab
 let g:SuperTabRetainCompletionType="context"
+
+" 设置注释的颜色
+highlight Comment ctermfg=darkgreen guifg=darkgreen
